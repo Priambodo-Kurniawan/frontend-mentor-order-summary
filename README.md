@@ -20,7 +20,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Links
 
-- Live Site URL: [Netlify](https://stupefied-bartik-627b6b.netlify.app/)
+- Live Site URL: [Netlify](https://clever-dijkstra-13479e.netlify.app/)
 
 ## My process
 
