@@ -18,10 +18,14 @@ body {
   text-align: center;
   padding: 10px;
   font-size: 0.8rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .container {
-  min-height: calc(100vh - 37px);
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,8 +35,8 @@ body {
   background-color: white;
   border-radius: 20px;
   overflow: hidden;
-  max-width: 400px;
-  box-shadow: 0 14px 25px rgb(0 0 0 / 8%);
+  max-width: 450px;
+  box-shadow: 0px 32px 30px 0px #a5b4f36b;
   margin: 0 10px;
 }
 
@@ -41,8 +45,12 @@ body {
 }
 
 .content {
-  padding: 25px 40px;
-  margin-bottom: 10px;
+  padding: 40px 49px;
+}
+
+.content h1 {
+  font-size: 1.75rem;
+  font-weight: 900;
 }
 
 .content h1,
@@ -57,27 +65,38 @@ body {
 
 .content p,
 .content span {
-  color: hsl(224, 23%, 55%);
-  margin-top: 15px;
-  line-height: 1.5rem;
+  color: #878a9cd1;
+  margin-top: 17px;
+  line-height: 1.55rem;
+  font-size: 16.3px;
+}
+
+.content .icon-container {
+  margin-top: 5px;
+  margin-left: -2px;
 }
 
 .content .plan-container {
-  background-color: hsl(225, 100%, 98%);
-  padding: 20px;
+  background-color: #f8f9fe;
+  padding: 22px 25px;
   margin-top: 20px;
-  border-radius: 10px;
+  border-radius: 15px;
   display: flex;
   align-items: center;
 }
 
 .content .plan-content {
   flex-grow: 2;
-  padding-left: 15px;
+  padding-left: 20px;
+  line-height: 1.6rem;
+}
+.content .plan-content b {
+  font-weight: 900;
 }
 
 .content .plan-action a {
-  font-weight: bolder;
+  font-weight: 900;
+  color: #5549d0;
 }
 
 .content .plan-action a:hover {
@@ -85,16 +104,20 @@ body {
   text-decoration: none;
 }
 
+.content button {
+  font-size: 0.95rem;
+}
+
 .content .cta {
-  margin-top: 25px;
+  margin-top: 30px;
   background-color: hsl(245, 75%, 52%);
   color: white;
   width: 100%;
-  padding: 10px;
-  border-radius: 8px;
+  padding: 15px;
+  border-radius: 10px;
   font-weight: bold;
   border: 0;
-  box-shadow: 0 14px 25px rgb(56 41 224 / 37%);
+  box-shadow: 0px 18px 25px rgb(56 41 224 / 25%);
 }
 
 .content .cta:hover {
@@ -109,7 +132,7 @@ body {
   border-radius: 8px;
   font-weight: bold;
   border: 0;
-  margin: 15px auto 0;
+  margin: 21px auto 0;
   display: block;
 }
 
